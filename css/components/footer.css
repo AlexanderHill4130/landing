@@ -1,0 +1,18 @@
+
+.footer {
+  background-color: lightgrey;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  align-content: space-between;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer p {
+  text-shadow: 1px 1px black;
+}
+
+.links a:hover {
+  color: #3BC162;
+}

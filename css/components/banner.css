@@ -1,0 +1,42 @@
+
+
+.banner {
+  background-image: url(https://picsum.photos/id/406/1000/600);
+  background-size: cover;
+  padding: 200px 0px;
+}
+
+.banner .banner-container {
+  text-align: center;
+  color: white;
+}
+
+.banner .banner-container h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px black;
+}
+
+.banner .banner-container p {
+  color: white;
+  font-weight: lighter;
+  text-shadow: 2px 2px black;
+  font-size: 30px;
+}
+
+.banner-btn {
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+  background-color: #45E071;
+  padding: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px
+}
+
+.banner-btn:hover {
+  background-color: #3BC162;
+}
