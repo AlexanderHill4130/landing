@@ -1,19 +1,30 @@
 
 #cards-title {
   text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
 }
 
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  margin: 10px;
 }
 
 .card {
   width: 200px;
   border-radius: 3px;
   box-shadow: 0 0 5px rgb(230,230,230);
+  color: white;
+  font-weight: lighter;
   text-align: center;
   padding: 20px;
   border: 1px solid rgb(230,230,230);
+}
+
+.card:hover {
+  box-shadow: 0 0 15px #3BC162;
 }

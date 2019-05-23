@@ -1,5 +1,4 @@
 
-
 .banner {
   background-image: url(https://picsum.photos/id/406/1000/600);
   background-size: cover;
@@ -39,4 +38,5 @@
 
 .banner-btn:hover {
   background-color: #3BC162;
+  box-shadow: 0 0 15px #3BC162;
 }
